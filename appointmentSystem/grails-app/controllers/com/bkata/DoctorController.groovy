@@ -2,5 +2,5 @@ package com.bkata
 
 class DoctorController {
 
-    def index() { }
+    def scaffold= Doctor
 }

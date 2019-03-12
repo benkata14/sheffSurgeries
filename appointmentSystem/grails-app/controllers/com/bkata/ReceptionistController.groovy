@@ -2,5 +2,5 @@ package com.bkata
 
 class ReceptionistController {
 
-    def index() { }
+    def scaffold= Receptionist
 }
