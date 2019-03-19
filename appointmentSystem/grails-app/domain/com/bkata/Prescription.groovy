@@ -7,6 +7,7 @@ String medicine
 double totalCost
 Date dataIssued
 Boolean patientPaying
+int daysOfSupply
 
     static constraints = {
 
@@ -16,5 +17,6 @@ medicine nullable: false, blank: false
 totalCost nullable: false, blank: false
 dataIssued nullable: false, blank: false
 patientPaying nullable: false, blank: false
+daysOfSupply nullable: false, blank: false
     }
 }

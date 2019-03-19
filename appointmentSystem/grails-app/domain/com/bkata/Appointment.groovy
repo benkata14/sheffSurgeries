@@ -5,6 +5,9 @@ Date appDate
 String appTime
 String appDuration
 String roomNumber
+Patient thePatient
+
+
 
     static constraints = {
 

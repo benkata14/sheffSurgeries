@@ -10,6 +10,8 @@ String doctorOffice
 int doctorPhone
 String bio
 
+static hasMany=[prescriptions: Prescription, patients: Patient, nurses: Nurse, appointments: Appointment]
+
     static constraints = {
 
 fullName nullable: false, blank: false
