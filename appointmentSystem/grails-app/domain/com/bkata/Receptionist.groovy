@@ -8,6 +8,10 @@ String recepUsername
 String recepPassword
 String recepPhone
 
+String toString(){
+return recepName
+}
+
     static constraints = {
 
 recepName nullable: false, blank: false

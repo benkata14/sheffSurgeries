@@ -9,6 +9,10 @@ Date dateIssued
 Boolean patientPaying
 int daysOfSupply
 
+String toString(){
+return pharmacyName
+}
+
     static constraints = {
 
 pharmacyName nullable: false, blank: false

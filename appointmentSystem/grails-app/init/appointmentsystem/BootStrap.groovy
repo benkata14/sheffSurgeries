@@ -121,6 +121,32 @@ nurseEmail:'d.kata@myemail.com',
 nurseOffice:'B-1',
 nursePhone:'0114 222 4437').save()
 
+Sheffield.addToReceptionists(Rob)
+Sheffield.addToNurses(Susan)
+Sheffield.addToDoctors(Sarah)
+Sheffield.addToAppointments(App1)
+Sheffield.addToPatients(Jenna)
+Sheffield.addToPatients(Tom)
+Manchester.addToReceptionists(Emma)
+Manchester.addToDoctors(John)
+Manchester.addToNurses(Diane)
+Sarah.addToNurses(Susan)
+Sarah.addToPatients(Tom)
+Sarah.addToPatients(Jenna)
+Sarah.addToAppointments(App1)
+Sarah.addToPrescriptions(Paracetomol)
+John.addToNurses(Diane)
+John.addToAppointments(App2)
+John.addToPrescriptions(Weed)
+Tom.addToPrescriptions(Paracetomol)
+Jenna.addToPrescriptions(Paracetomol)
+
+
+
+
+
+
+
 
     }
     def destroy = {

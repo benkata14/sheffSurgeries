@@ -7,7 +7,9 @@ String appDuration
 String roomNumber
 Patient thePatient
 
-
+String toString(){
+return roomNumber
+}
 
     static constraints = {
 

@@ -14,6 +14,10 @@ static hasMany=[prescriptions: Prescription, doctors: Doctor, surgerys: Surgery]
 
 static belongsTo=[Doctor, Surgery]
 
+String toString(){
+return patientName
+}
+
 
     static constraints = {
 

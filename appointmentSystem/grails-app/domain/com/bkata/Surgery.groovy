@@ -12,6 +12,9 @@ String openingTime
 
 static hasMany=[receptionists: Receptionist, nurses: Nurse, doctors: Doctor, patients: Patient, appointments: Appointment]
 
+String toString(){
+return name
+}
 
     static constraints = {
 
