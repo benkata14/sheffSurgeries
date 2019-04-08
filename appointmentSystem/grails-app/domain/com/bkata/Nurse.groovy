@@ -7,9 +7,9 @@ String nurseEmail
 String nurseOffice
 String nursePhone
 
-static hasMany=[doctors: Doctor]
+static hasMany=[doctors: Doctor, surgerys: Surgery]
 
-static belongsTo=[Doctor]
+static belongsTo=[Doctor, Surgery]
 
 String toString(){
 return nurseName

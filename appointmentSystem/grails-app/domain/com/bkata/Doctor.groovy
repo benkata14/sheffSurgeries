@@ -10,7 +10,9 @@ String doctorOffice
 String doctorPhone
 String bio
 
-static hasMany=[prescriptions: Prescription, patients: Patient, nurses: Nurse, appointments: Appointment]
+static hasMany=[prescriptions: Prescription, patients: Patient, nurses: Nurse, appointments: Appointment, surgerys: Surgery]
+
+static belongsTo=[Surgery]
 
 String toString(){
 return fullName

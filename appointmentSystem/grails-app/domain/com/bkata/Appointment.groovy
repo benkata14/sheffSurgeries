@@ -7,6 +7,10 @@ String appDuration
 String roomNumber
 Patient thePatient
 
+static hasMany=[surgerys: Surgery]
+
+
+
 String toString(){
 return roomNumber
 }
