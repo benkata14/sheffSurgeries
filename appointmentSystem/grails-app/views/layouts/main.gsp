@@ -17,6 +17,7 @@
 <body>
 <div class="row">
 	<asset:image src="nhs-banner.jpg"/>
+<g:loginToggle />
 </div>
 
 <g:layoutBody/>
