@@ -12,7 +12,7 @@ String bio
 
 static hasMany=[prescriptions: Prescription, patients: Patient, nurses: Nurse, appointments: Appointment, surgerys: Surgery]
 
-static belongsTo=[Surgery]
+static belongsTo=[Surgery, Nurse]
 
 String toString(){
 return fullName

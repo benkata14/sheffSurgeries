@@ -12,7 +12,7 @@ String openingTime
 
 static hasMany=[receptionists: Receptionist, nurses: Nurse, doctors: Doctor, patients: Patient, appointments: Appointment]
 
-static belongsTo=[Appointment]
+static belongsTo=[Appointment, Nurse]
 
 String toString(){
 return name
